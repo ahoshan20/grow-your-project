@@ -38,7 +38,7 @@ br{
     font-size: 18px;
     margin-top: 30px;
 }
-
+/* Service section style here  */
 .bus-solution-top{
     flex-direction: column;
 }
@@ -69,3 +69,42 @@ br{
     font-size: 18px;
     line-height: 24px;
 }
+/* Portfoio section style here  */
+.portfolio-container{
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+.porfolio-part, .best-figure{
+    width: 100%;
+    
+}
+/* Review section style here  */
+.review-section{
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.review-section .review h3{
+    font-size: 42px;
+    padding-bottom: 10px;
+}
+.review-section .review{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #095ec758;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* About and faq section style here  */
+.about-faq-section{
+    grid-template-columns: 1fr;
+    gap: 150px;
+}
+.about-section{
+    padding: 0;
+}
+.about-section>p, .anwser p{
+    font-size: 18px;
+    line-height: 24px;
+} 

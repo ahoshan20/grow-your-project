@@ -153,9 +153,7 @@ ul{
     top: 0;
     z-index: 1;
 }
-
-
-
+/* Service section style here  */
 .bus-solution-section{
     margin-top: 120px;
 }
@@ -205,7 +203,7 @@ ul{
     font-size: 14px;
     line-height: 14px;
 }
-/* Rivew section style here  */
+/* Portfoio section style here  */
 .portfolio-section{
     background-color: #f8fafc;
 }
@@ -229,9 +227,8 @@ ul{
     padding-bottom: 35px;
     color: #666666;
 }
-.rivew-btn{
+.review-btn{
     display: inline-block;
-    
     font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
@@ -241,14 +238,20 @@ ul{
     background-color: #e6e6e6;
     border: 2px solid transparent;
     border-radius: 50px;
+    transition: all 0.3s ease-in-out;
 }
-.rivew-section{
+.review-btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: #85AF4B;
+    border-radius: 50px;
+}
+.review-section{
     padding: 90px 0;
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.rivew-section .rivew h3{
+.review-section .review h3{
     font-size: 48px;
     font-weight: 600;
     padding-bottom: 15px;
