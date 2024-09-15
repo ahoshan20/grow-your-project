@@ -37,7 +37,7 @@ ul{
 .social-media-icon ul li a i{
     font-size: 13px;
     color: rgb(255, 255, 255);
-    /* padding: 18px 8px; */
+    padding: 18px 8px;
 
 }
 .top-contact ul{
@@ -66,7 +66,7 @@ ul{
     width: 52px;
     height: 50px;
 }
-.main-nav-container .menubar, .menu{
+.main-nav-container .menubar, .main-menu{
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -79,10 +79,11 @@ ul{
     margin: 18px;
 }
 #serch-icon{
-    margin-right: 0;
+    font-size: 18px;
 }
 .mobile-bar #menu-icon{
     display: none;
+    margin-left: 10px;
 }
 
 
@@ -129,6 +130,7 @@ ul{
     background-color: #85AF4B;
     border: 2px solid transparent;
     border-radius: 50px;
+    display: inline-block;
 }
 .bannar-header .btn-group a:hover{
     background-color: transparent;

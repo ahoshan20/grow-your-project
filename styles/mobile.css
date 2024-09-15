@@ -10,10 +10,62 @@
     gap: 10px;
     align-items: start;
 }
-.main-nav-container .menubar>ul,.search-bar{
+#serch-icon{
+    font-size: 28px;
+}
+.main-nav-container .menubar>ul{
     display: none;
 }
 .mobile-bar #menu-icon{
     display: block;
     font-size: 30px;
+}
+/* Bannar section style here  */
+.bannar-header{
+    width: 100%;
+    padding: 50px;
+}
+.bannar-image{
+    display: none;
+}
+br{
+    display: none;
+}
+.bannar-header h1{
+    font-size: 48px;
+}
+.bannar-header p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.bus-solution-top{
+    flex-direction: column;
+}
+.bus-solution-top h2{
+    font-size: 36px;
+    width: 100%;
+    padding-bottom: 40px;
+
+}
+.bus-solution-top h2::after{
+    width: 100%;
+    height: 2px;
+    top: 90px;
+    right: 0;
+}
+.bus-solution-top p{
+    width: 100%;
+    font-size: 18px;
+    line-height: 24px;
+}
+.bus-solution-bottom{
+    grid-template-columns: 1fr;
+}
+.support{
+    padding: 50px 20px;
+}
+.support p{
+    font-size: 18px;
+    line-height: 24px;
 }
