@@ -1,0 +1,19 @@
+.container{
+    width: 90%;
+}
+.social-media-icon ul li a i{
+    font-size: 20px;
+
+}
+.top-contact ul{
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+.main-nav-container .menubar>ul,.search-bar{
+    display: none;
+}
+.mobile-bar #menu-icon{
+    display: block;
+    font-size: 30px;
+}
