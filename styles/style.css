@@ -476,6 +476,11 @@ grid-template-columns: repeat(4, 1fr);
     margin-right: 15px;
     font-size: 24px;
     color: #575656;
+    transition: all 0.3s ease-in-out;
+}
+.card-icon i:hover{
+    background-color: #095DC7;
+    color: #575656;
 }
 /* Logo section style here  */
 .logo-section{

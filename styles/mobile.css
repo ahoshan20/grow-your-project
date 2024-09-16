@@ -108,3 +108,62 @@ br{
     font-size: 18px;
     line-height: 24px;
 } 
+/* Compatible section style here  */
+.compatible-headline{
+    padding: 20px;
+    width: 100%;
+}
+.compatible-headline p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.compatible-headline a{
+    font-size: 20px;
+}
+/* Latest porject section style here  */
+.latest-project h2{
+    padding-bottom: 50px;
+}
+.latest-project-container{
+    gap: 50px;
+    grid-template-columns: 1fr;
+}
+/* Testimonial section style here  */
+.textimonial-headline{
+    width: 100%;
+    padding: 20px;
+}
+.textimonial-headline p{
+    font-size: 18px;
+    line-height: 24px;
+    padding: 60px 0;
+}
+.textimonial-headline h6{
+    font-size: 20px;
+}
+/* team section style here  */
+.team-section-container{
+    gap: 50px;
+    grid-template-columns: 1fr;
+}
+.team-card h3{
+    font-size: 20px;
+}
+.team-card .designation{
+    font-size: 20px;
+}
+.team-card .description{
+    font-size: 18px;
+    line-height: 24px;
+}
+.card-icon i{
+    font-size: 30px;
+}
+/* Logo section style here  */
+.logo-section-container{
+    grid-template-columns: 1fr;
+}
+.brand img{
+    width: 100px;
+    height: 100px;
+}
