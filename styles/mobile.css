@@ -38,6 +38,11 @@ br{
     font-size: 18px;
     margin-top: 30px;
 }
+.bannar-header .btn-group a {
+    font-size: 18px;
+    padding: 15px 25px;
+    margin: 10px;
+}
 /* Service section style here  */
 .bus-solution-top{
     flex-direction: column;
@@ -118,7 +123,9 @@ br{
     line-height: 24px;
 }
 .compatible-headline a{
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 25px;
 }
 /* Latest porject section style here  */
 .latest-project h2{
@@ -166,4 +173,41 @@ br{
 .brand img{
     width: 100px;
     height: 100px;
+}
+/* footer sectioin style here  */
+.detels-container{
+    gap: 80px;
+    /* grid-template-columns: 3fr 2fr 4.5fr 3fr; */
+    grid-template-columns: 1fr;
+}
+.detels{
+    text-align: center;
+}
+.contact-us p,
+ .subscribe p, 
+ .copyright p{
+    font-size: 18px;
+}
+.contact-us .icon a,
+ .useful-link ul li a,
+ .contact-us> a,
+ .menu a{
+    font-size: 18px;
+}
+.contact-us .icon a i{
+    font-size: 28px;
+    padding: 10px;
+}
+.latest-news .item p{
+    font-size: 16px;
+    text-align: left;
+}
+.footer-nav-container{
+    grid-template-columns:  1fr;
+}
+.footer-nav .menu{
+    display: none;
+}
+.copyright i{
+    font-size: 20px;
 }
